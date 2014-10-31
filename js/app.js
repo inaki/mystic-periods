@@ -2,6 +2,7 @@ angular.module('cycles', ['ui.bootstrap', 'angularMoment'])
 
   .controller('mainCtrl', ['$scope', function($scope){
 
+
   $scope.periods = {
       firstPeriod: 'Push self forward with help from influential people; advance your own interests; seek favors, honors, help or recognition; building reputation or self-promotion in the public. Advertising for your business is best started or changed in this cycle. This is the time to step forward into the limelight, to become "visible" personally or professionally. Submit grant proposals, apply for job, submit a manuscript to a publisher, enter schooling, or other endeavors which will move yourself forward. Help is available from people and your guides, just by asking for it, but you must have faith that it is being delivered because the way in which help comes can often be seen only in retrospect. ',
       secondPeriod: 'Short term activities only; short trips of immediate importance are favorable; a good time to move your home or business; a period for changes which are quick and soon over. Brief projects, short courses, quick trips. An excellent period for dealing with things of a liquid or changeable nature. Unfavorable time to loan or borrow money or to gamble or speculate. Long term projects should not be started during this period.',
