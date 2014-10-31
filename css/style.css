@@ -49,3 +49,42 @@ h1 {
     /* custom min width */
     min-width:320px;
 }
+
+
+/* styles for collapsable periods */
+.panel-default {
+  border-color: white;
+}
+
+.panel-default>.panel-heading {
+  background-color: #fff;
+  border-radius: 0px;
+}
+
+.panel:nth-child(1){
+  border-left: 3px solid red;
+}
+
+.panel:nth-child(2){
+  border-left: 3px solid orange;
+}
+
+.panel:nth-child(3){
+  border-left: 3px solid gold;
+}
+
+.panel:nth-child(4){
+  border-left: 3px solid mediumspringgreen;
+}
+
+.panel:nth-child(5){
+  border-left: 3px solid deepskyblue;
+}
+
+.panel:nth-child(6){
+  border-left: 3px solid blue;
+}
+
+.panel:nth-child(7){
+  border-left: 3px solid mediumpurple;
+}
