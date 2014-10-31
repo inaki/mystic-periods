@@ -3,10 +3,13 @@
 /* visual styles */
 body {
     padding-bottom:40px;
+    background-color: honeydew;
+    background-image: url('../images/swirl_pattern.png');
+    opacity: 0.95;
 }
 h1 {
     margin:40px 0px 20px 0px;
-	color:#95c500;
+	  color:tomato;
     font-size:28px;
     line-height:34px;
     text-align:center;
@@ -17,8 +20,8 @@ h1 {
 [class*="col-"] {
     padding-top:10px;
     padding-bottom:15px;
-	  border:1px solid #80aa00;
-	  background:#d6ec94;
+	  /* border:1px solid #80aa00; */
+	  background:mintcream;
 }
 [class*="col-"]:before {
     display:block;position:relative;
@@ -26,8 +29,14 @@ h1 {
 	  font-family:sans-serif;
 	  font-size:10px;
     letter-spacing:1px;
-    color:#658600;
+    color:yellowgreen;
     text-align:left;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus {
+  border-color: lavender;
+  box-shadow: 0 1px 1px lavender inset, 0 0 8px lavender;
+  outline: 0 none;
 }
 
 /* centering columns */
