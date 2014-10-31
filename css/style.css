@@ -1,1 +1,51 @@
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+/* visual styles */
+body {
+    padding-bottom:40px;
+}
+h1 {
+    margin:40px 0px 20px 0px;
+	color:#95c500;
+    font-size:28px;
+    line-height:34px;
+    text-align:center;
+}
+.container{
+    max-width:99%
+}
+[class*="col-"] {
+    padding-top:10px;
+    padding-bottom:15px;
+	  border:1px solid #80aa00;
+	  background:#d6ec94;
+}
+[class*="col-"]:before {
+    display:block;position:relative;
+    margin-bottom:8px;
+	  font-family:sans-serif;
+	  font-size:10px;
+    letter-spacing:1px;
+    color:#658600;
+    text-align:left;
+}
+
+/* centering columns */
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.col-min {
+    /* custom min width */
+    min-width:320px;
+}
