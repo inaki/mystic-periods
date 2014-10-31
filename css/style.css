@@ -97,3 +97,13 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 .panel:nth-child(7){
   border-left: 3px solid mediumpurple;
 }
+
+/* Media queries */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+  .col-md-4 {
+    max-width: 100px;
+  }
+}
